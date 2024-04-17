@@ -1,5 +1,5 @@
 {
-  "name": "strapi-demo",
+  "name": "my-strapi-demo",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -10,24 +10,22 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/blocks-react-renderer": "^1.0.1",
-    "@strapi/plugin-cloud": "4.21.0",
-    "@strapi/plugin-i18n": "4.21.0",
-    "@strapi/plugin-users-permissions": "4.21.0",
-    "@strapi/strapi": "4.21.0",
+    "@strapi/plugin-cloud": "4.23.1",
+    "@strapi/plugin-i18n": "4.23.1",
+    "@strapi/plugin-users-permissions": "4.23.1",
+    "@strapi/strapi": "^4.22.0",
     "better-sqlite3": "8.6.0",
-    "boostrap": "^2.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "pg": "^8.11.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
-    "snappy": "^7.2.2",
     "styled-components": "5.3.3"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "a93a2242-f9ee-48b4-b909-3cde0afadedf"
+    "uuid": "49639a7f-b5a2-4cd6-bd7e-ce798b74dd94"
   },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
