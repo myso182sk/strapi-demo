@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_elements_slideshows",
+  "info": {
+    "displayName": "Slideshow"
+  },
+  "options": {},
+  "attributes": {
+    "slide": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.hero-image"
+    }
+  }
+}
