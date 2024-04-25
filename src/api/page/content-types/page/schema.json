@@ -4,7 +4,7 @@
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "Pages",
+    "displayName": "Page",
     "description": ""
   },
   "options": {
@@ -25,9 +25,9 @@
     "contentSections": {
       "type": "dynamiczone",
       "components": [
+        "elements.hero-image",
         "elements.rich-text",
-        "elements.slideshow",
-        "elements.pricing-table"
+        "elements.video-embed"
       ]
     }
   }
