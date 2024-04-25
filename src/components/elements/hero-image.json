@@ -1,16 +1,27 @@
 {
   "collectionName": "components_elements_hero_images",
   "info": {
-    "displayName": "Hero Image"
+    "displayName": "Slide",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "text": {
+      "type": "blocks"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
     }
   }
 }

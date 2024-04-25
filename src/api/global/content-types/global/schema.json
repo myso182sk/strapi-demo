@@ -27,6 +27,12 @@
     },
     "copyright": {
       "type": "text"
+    },
+    "siteName": {
+      "type": "string"
+    },
+    "siteSlogan": {
+      "type": "string"
     }
   }
 }

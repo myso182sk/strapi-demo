@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_pricing_tables",
+  "info": {
+    "displayName": "Pricing Table"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "text": {
+      "type": "blocks"
+    }
+  }
+}
