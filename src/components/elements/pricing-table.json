@@ -1,15 +1,21 @@
 {
   "collectionName": "components_elements_pricing_tables",
   "info": {
-    "displayName": "Pricing Table"
+    "displayName": "Pricing Table",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "headline": {
       "type": "string"
     },
-    "text": {
+    "content": {
       "type": "blocks"
+    },
+    "plans": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::plan.plan"
     }
   }
 }
