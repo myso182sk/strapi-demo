@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plans",
+  "info": {
+    "singularName": "plan",
+    "pluralName": "plans",
+    "displayName": "Plans",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "features": {
+      "type": "dynamiczone",
+      "components": [
+        "elements.feature"
+      ]
+    },
+    "price": {
+      "type": "string"
+    }
+  }
+}
